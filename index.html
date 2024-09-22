@@ -7,7 +7,9 @@
     <script>
         if (window.location.search.includes('redirect')) {
             var url = window.location.search.split('=')[1];
-            window.location.href = url;
+            window.location.href = url || 'http://82.157.110.189/';
+        } else {
+            window.location.href = 'http://82.157.110.189/';
         }
     </script>
 </head>
