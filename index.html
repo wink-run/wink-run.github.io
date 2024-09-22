@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wink</title>
+    <script>
+        if (window.location.search.includes('redirect')) {
+            var url = window.location.search.split('=')[1];
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+    <h1>为您跳转中...</h1>
+</body>
+</html>
